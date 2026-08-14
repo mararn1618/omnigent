@@ -24,6 +24,7 @@ export const BUILTIN_AGENTS = new Set([
   "kimi-native-ui", // Kimi
   "polly",
   "debby",
+  "copilot", // seeded copilot chat agent
 ]);
 
 // Preferred display order for the built-in group. The server returns
@@ -40,6 +41,7 @@ export const AGENT_DISPLAY_ORDER = [
   "Antigravity",
   "Qwen Code",
   "Kimi",
+  "Copilot",
   "Polly",
   "Debby",
 ];
